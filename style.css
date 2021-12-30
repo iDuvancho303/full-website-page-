@@ -13,3 +13,20 @@ a {
     text-decoration: none;
 }
 
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*HERO SECTION*/
+#hero {
+    background-image: url(/images/hero-bg.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+/*END HERO SECTION
