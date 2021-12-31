@@ -134,6 +134,18 @@ a {
     letter-spacing: .2rem;
     text-align: center;
 }
+
+#services .section-title span {
+    color: crimson ;
+}
+
+#services .service-top p {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
 /*END SERVICES SECTION*/
 
 
