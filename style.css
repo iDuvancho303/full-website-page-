@@ -36,6 +36,20 @@ img {
     letter-spacing: .05rem;
 }
 
+.section-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.section-title span {
+    color: crimson ;
+}
+
 /*HERO SECTION*/
 #hero {
     background-image: url(/images/hero-bg.png);
@@ -140,20 +154,6 @@ img {
     padding: 100px  0;
 }
 
-#services .section-title {
-    font-size: 4rem;
-    font-weight: 300;
-    color: black;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
-
-#services .section-title span {
-    color: crimson ;
-}
-
 #services .service-top p {
     color: black;
     font-size: 1.4rem;
@@ -217,8 +217,11 @@ img {
     text-align: left;
     font-weight: 500;
 }
-
 /*END SERVICES SECTION*/
+
+/*PROJECTS SECTION*/
+
+/*END PROJECTS SECTION*/
 
 
 
