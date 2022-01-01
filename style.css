@@ -193,6 +193,20 @@ img {
     margin-bottom: 20px;
 }
 
+#services .service-item h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#services .service-item p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    line-height: 1.9;
+}
+
 /*END SERVICES SECTION*/
 
 
