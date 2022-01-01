@@ -168,6 +168,7 @@ img {
      align-items: center;
      justify-content: center;
      flex-wrap: wrap;
+     margin-top: 20px;
 }
 
 #services .service-item {
@@ -183,6 +184,7 @@ img {
     margin: 10px 5%;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 #services .service-item::after {
@@ -213,6 +215,7 @@ img {
 #services .service-item p {
     color: white;
     text-align: left;
+    font-weight: 500;
 }
 
 /*END SERVICES SECTION*/
