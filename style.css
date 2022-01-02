@@ -295,7 +295,7 @@ img {
 }
 
 #projects .project-img img {
-    transition: .3s eas transform;
+    transition: .3s ease transform;
 }
 
 #projects .project-item:hover .project-img img {
