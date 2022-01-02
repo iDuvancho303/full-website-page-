@@ -359,6 +359,15 @@ img {
 }
 /*END ABOUT SECTION*/
 
+/*CONTACT SECTION*/
+#contact .contact {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+/*END CONTACT SECTION*/
+
 
 
 
