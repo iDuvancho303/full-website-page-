@@ -509,11 +509,28 @@ img {
     }
     /* END HERO SECTION*/
     /*SERVICES SECTION*/
-    #services .service-bottom .service-item{
+    #services .service-bottom .service-item {
         flex-basis: 45%;
         margin: 2.5%;
     }
     /* END SERVICES SECTION*/
+    /*PROJECT SECTION*/
+    #projects .project-item {
+        flex-direction: row; 
+    }
+    #projects .project-item {
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    #projects .all-projects .project-info {
+        height: 100%;
+    }
+    #projects .all-projects .project-img {
+        height: 100%;
+    }
+    /*END PROJECT SECTION*/
 
 }
 /*END MEDIA QUERY FOR TABLET*/
