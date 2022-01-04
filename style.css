@@ -162,6 +162,8 @@ img {
     bottom: 8px;
 }
 
+#header .hamburger.active .bar::before
+
 
 /*END HEADER SECTION*/
 
