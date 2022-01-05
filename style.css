@@ -7,6 +7,7 @@
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -63,6 +64,7 @@ img {
 #header .header {
     min-height: 8vh;
     background-color: rgba(31, 30, 30, 0.24);
+    transition: .3s ease background-color;
 }
 
 #header .nav-bar {
@@ -769,6 +771,19 @@ img {
         display: block;
         height: auto;
         width: fit-content;
+        background-color: transparent;
+    }
+
+    #header .nav-list ul li {
+        display: inline-block;
+    }
+
+    #header .nav-list ul li a {
+        font-size: 1.8rem;
+    }
+
+    #header .nav-list ul a:after {
+        display: none;
     }
     #services .service-bottom .service-item {
         flex-basis: 22%;
